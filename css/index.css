@@ -1,0 +1,119 @@
+body {
+
+    font-family: "Abyssinica SIL";
+}
+
+/* 未被访问的链接 */
+a:link {
+    color: black;
+}
+
+/* 已被访问的链接 */
+a:visited {
+    color: black;
+}
+
+/* 鼠标指针移动到链接上 */
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+/* 正在被点击的链接 */
+a:active {
+    color: coral;
+}
+
+.top {
+    font-size: 13px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+}
+
+.top .left {
+    margin-left: 100px;
+    float: left;
+}
+
+.top .left .phone {
+    margin-right: 50px;
+}
+
+.top .right {
+    float: right;
+    margin-right: 30px;
+}
+
+.top .right span {
+    margin-right: 30px;
+}
+
+.logoAndSearch {
+    margin-top: 40px;
+}
+
+.logoAndSearch .logo {
+    float: left;
+}
+
+.logoAndSearch .search {
+
+    height: 50px;
+    float: right;
+    margin-right: 100px;
+}
+
+.logoAndSearch .search .form-group {
+    border: 3px solid coral;
+    display: inline-block;
+}
+
+.input-group-addon {
+    background-color: coral;
+}
+
+.logoAndSearch .search .input-group, .form-control {
+    width: 370px;
+    height: 45px;
+}
+
+.logoAndSearch .search a {
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+
+.hot {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.hot span {
+    margin-right: 10px;
+}
+.content{
+    /*border: solid coral 1px;*/
+}
+.menu{
+    border: solid coral 2px;
+    background-color: coral;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+}
+.role{
+    display: inline-block;
+    width: 730px;
+
+}
+.tuiJian{
+    display: inline-block;
+    border: solid gainsboro 1px;
+    width: 197px;
+    float: right;
+    margin-top: 22px;
+    height: 485px;
+}
