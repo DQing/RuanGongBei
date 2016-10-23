@@ -1,10 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-
+<div class="container top">
+    <span><img src="../image/logo1_meitu_1.jpg" alt="" width="170px"></span>
+    <span class="line"></span>
+    <span class="welcome">新用户注册</span>
+</div>
+<div class="content">
+    <div class="backImg">
+        <img src="../image/1.jpg" alt="" width="100%">
+    </div>
+    <div class="login">
+        <span class="userId">注册帐号</span>
+        <hr style="margin-top: 10px">
+        <p>
+            <span class="glyphicon glyphicon-envelope"></span><input type="email" name="email" placeholder="电子邮箱"
+                                                                 class="input">
+        </p>
+        <p>
+            <span class="glyphicon glyphicon-user"></span><input type="text" name="user" placeholder="用户名"
+                                                                 class="input">
+        </p>
+        <p>
+            <span class="glyphicon glyphicon-lock"></span><input type="password" name="password" placeholder="密码"
+                                                                 class="input">
+        </p>
+        <p class="pass" style="font-size: 14px">
+            注册倾向 <input type="radio">我来赚钱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio">找人办事
+        </p>
+        <p class="submit">
+            <input type="submit" value="同意协议并注册">
+        </p>
+        <a href="#" style="margin-right: 120px">《创客网服务协议》</a>
+        <p class="cooperation">
+            <span>使用合作帐号登录</span>已经有帐号？<a href="#">登录</a>
+        </p>
+        <p class="image">
+            <img src="../image/qq.png" alt="">
+            <img src="../image/weibologin.png" alt="">
+        </p>
+    </div>
+</div>
+<script src="../dist/js/jquery-3.1.1.min.js"></script>
+<script src="../dist/js/bootstrap.min.js"></script>
 </body>
 </html>
