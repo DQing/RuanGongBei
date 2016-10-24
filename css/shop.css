@@ -1,0 +1,176 @@
+body {
+
+    font-family: "Abyssinica SIL";
+    font-weight: lighter;
+}
+
+/* 未被访问的链接 */
+a:link {
+    color: black;
+}
+
+/* 已被访问的链接 */
+a:visited {
+    color: black;
+}
+
+/* 鼠标指针移动到链接上 */
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+a:active {
+
+    color: coral;
+}
+
+.top {
+    font-size: 13px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    opacity: 0.6;
+}
+
+.top .left {
+    margin-left: 100px;
+    float: left;
+}
+
+.top .left .phone {
+    margin-right: 50px;
+}
+
+.top .right {
+    float: right;
+    margin-right: 30px;
+}
+
+.top .right span {
+    margin-right: 30px;
+}
+
+.logoAndSearch {
+    margin-top: 40px;
+}
+
+.logoAndSearch .logo {
+    float: left;
+}
+
+.logoAndSearch .search {
+
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+}
+
+.logoAndSearch .search .form-group {
+    border: 3px solid coral;
+    display: inline-block;
+}
+
+.input-group-addon {
+    background-color: coral;
+}
+
+.logoAndSearch .search .input-group, .form-control {
+    width: 450px;
+    height: 45px;
+}
+
+.search .input-group-addon {
+    color: white;
+}
+
+.logoAndSearch .search a {
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+
+.publish {
+    border-radius: 0;
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+}
+
+.middle{
+    margin-top: 30px;
+}
+.middle .nav{
+    background-color: dimgrey;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.middle a:link {
+    color: white;
+}
+
+/* 已被访问的链接 */
+.middle a:visited {
+    color: white;
+}
+
+/* 鼠标指针移动到链接上 */
+.middle a:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+.middle a:active {
+    color: coral;
+}
+
+.middle .shopin{
+    border: 1px solid gainsboro;
+    margin-top: 30px;
+    height: 400px;
+    padding: 20px;
+
+}
+.middle .shopin .carousel{
+    width: 500px;
+    border: 1px solid coral;
+    height: 300px;
+}
+
+.middle .shopRight{
+    float: right;
+    margin-top: -290px;
+    margin-right: 50px;
+    background-color: ghostwhite;
+    padding-bottom: 200px;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* 未被访问的链接 */
+footer a:link {
+    color: white;
+}
+
+/* 已被访问的链接 */
+footer a:visited {
+    color: white;
+}
+
+/* 鼠标指针移动到链接上 */
+footer a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+footer p a {
+    margin-right: 50px;
+}
