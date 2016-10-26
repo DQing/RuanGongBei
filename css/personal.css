@@ -79,7 +79,8 @@ a:active {
     width: 450px;
     height: 45px;
 }
-.search .input-group-addon{
+
+.search .input-group-addon {
     color: white;
 }
 
@@ -87,21 +88,25 @@ a:active {
     margin-bottom: 70px;
     margin-left: 50px;
 }
-.publish{
+
+.publish {
     border-radius: 0;
     width: 200px;
     height: 50px;
     background-color: coral;
 }
-.middle{
+
+.middle {
     background-color: gainsboro;
     margin-top: 25px;
 }
-.middle .bgimg{
+
+.middle .bgimg {
     text-align: center;
     padding-top: 10px;
 }
-.middle .instruct{
+
+.middle .instruct {
     background-color: white;
     width: 90%;
     margin-left: 5%;
@@ -109,23 +114,43 @@ a:active {
     margin-right: 5%;
     /*height: 800px;*/
 }
-.middle .instruct img{
+
+.middle .instruct img {
     margin-top: -100px;
     margin-left: 20px;
 }
-.middle .address{
+
+.middle .address {
     display: inline-block;
     padding: 30px;;
 }
-.middle .choose{
+
+.middle .choose {
     margin-top: 20px;
     margin-left: 25px;
 }
 
+.writeblog {
+    text-align: center;
+    margin-top: 50px;
+}
 
+.writeblog input {
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+}
 
+/*.writeblog input:active {*/
+    /*border-top: hidden;*/
+    /*border-right: hidden;*/
+    /*border-left: hidden;*/
+/*}*/
+.writeblog .title{
+    float: left;
+}
 
-footer{
+footer {
     margin-top: 150px;
     background-color: black;
     text-align: center;
@@ -133,6 +158,7 @@ footer{
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
 /* 未被访问的链接 */
 footer a:link {
     color: white;
@@ -148,6 +174,7 @@ footer a:hover {
     color: orange;
     text-decoration: none;
 }
-footer p a{
+
+footer p a {
     margin-right: 50px;
 }

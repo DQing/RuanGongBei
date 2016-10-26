@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    font-size: 13px;
+}
+
+.top {
+    font-size: 13px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    opacity: 0.6;
+}
+
+.top .left {
+    margin-left: 100px;
+    float: left;
+}
+
+.top .left .phone {
+    margin-right: 50px;
+}
+
+.top .right {
+    float: right;
+    margin-right: 30px;
+}
+
+.top .right span {
+    margin-right: 30px;
+}
+
+.top1 {
+    /*margin-top: 20px;*/
+    padding: 15px 100px;
+    background-color: #227bd7;
+}
+
+/* 未被访问的链接 */
+a:link {
+    color: black;
+}
+
+/* 已被访问的链接 */
+a:visited {
+    color: black;
+}
+
+/* 鼠标指针移动到链接上 */
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+a:active {
+
+    color: coral;
+}
+
+.top1 .line {
+    display: inline-block;
+    width: 1px;
+    height: 50px;
+    margin: 0px 10px;
+    margin-bottom: -20px;
+    background-color: white;
+}
+
+.top1 .welcome {
+    font-size: 24px;
+    opacity: 0.6;
+    display: inline-block;
+}
+.content{
+    width: 70%;
+    margin-top: 40px;
+    font-family: SimSun;
+}
+.content h3{
+    text-align: center;
+}
+.content .p2{
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* 未被访问的链接 */
+footer a:link {
+    color: white;
+}
+
+/* 已被访问的链接 */
+footer a:visited {
+    color: white;
+}
+
+/* 鼠标指针移动到链接上 */
+footer a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+footer p a {
+    margin-right: 50px;
+}
