@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>个人空间</title>
+    <link href="../dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../css/modify.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords"
+          content="My Skills Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
 </head>
 <body>
+<div class="header-section">
+    <div class="container" style="margin-left: 60px">
+        <form>
+            <img src="../image/p1.png"
+                 onclick="document.querySelector('#fileInput').click()"/> <input
+                type="file" id="fileInput" name="file" multiple size="200"
+                style="display: none">
+        </form>
+    </div>
+</div>
+<div class="study-section">
+    <div class="container">
+        <div class="study-grids">
+            <div class="col-md-7 study-grid">
+                <h3>个人资料</h3>
+                <p>用户名 : <input type="text" name="username" value="张三"></p>
 
+                <p>修改密码 : <input type="password" name="password" placeholder="输入新密码"></p>
+
+            </div>
+
+            <div class="col-md-5 study-grid">
+                <p>个人简介 :<br>
+                    <textarea type="text" name="username" value="张三" style="width: 300px;height: 70px"></textarea>
+                </p>
+
+
+            </div>
+            <input type="submit" value="提交">
+        </div>
+    </div>
+</div>
+
+<script src="../dist/js/jquery.min.js"></script>
+<script src="../dist/js/bootstrap.min.js"></script>
 </body>
 </html>
