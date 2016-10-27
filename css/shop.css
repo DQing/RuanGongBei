@@ -139,11 +139,23 @@ a:active {
 }
 
 .middle .shopRight{
+    padding: 30px;
     float: right;
-    margin-top: -290px;
+    margin-top: -320px;
     margin-right: 50px;
-    background-color: ghostwhite;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
+}
+.middle .shopRight .pink{
+    background-color: peachpuff;
+    padding: 20px;
+}
+.service{
+    margin-top: 30px;
+}
+
+.middle .shopRight h4{
+    text-align: center;
+    font-weight: 700;
 }
 
 footer {

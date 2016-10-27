@@ -56,6 +56,7 @@ a:active {
 
 .logoAndSearch .logo {
     float: left;
+    margin-top: -15px;
 }
 
 .logoAndSearch .search {

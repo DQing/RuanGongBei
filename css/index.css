@@ -119,6 +119,7 @@ a:active {
     margin-top: 20px;
     text-align: center;
 }
+
 .menu a:link {
     color: white;
 }
@@ -143,7 +144,6 @@ a:active {
     display: inline-block;
     width: 730px;
 
-
 }
 
 .tuiJian {
@@ -155,6 +155,11 @@ a:active {
     height: 485px;
 }
 
+.tuiJian img {
+    border: solid gainsboro 1px;
+    padding: 6px;
+}
+
 .like {
     opacity: 0.5;
 }
@@ -163,7 +168,9 @@ a:active {
     margin-top: 50px;
 }
 
-.shop img {
+.shop img :hover {
+    transition: width 2s;
+    transform: scale(2);
 }
 
 .shop .row {
