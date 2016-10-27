@@ -139,6 +139,18 @@ a:active {
     color: coral;
 }
 
+.order .output h4{
+    font-weight: 700;
+    color: coral;
+}
+.order .output .col-lg-6{
+    border-top: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+.order .output .col-lg-6 p{
+    border-top: 1px solid gainsboro;
+}
+
 footer {
     margin-top: 150px;
     background-color: black;
